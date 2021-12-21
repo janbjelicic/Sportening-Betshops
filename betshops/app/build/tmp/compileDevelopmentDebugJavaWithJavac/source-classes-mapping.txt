@@ -1,0 +1,104 @@
+hilt_aggregated_deps/_com_nikec_betshops_di_DataModule.java
+ hilt_aggregated_deps._com_nikec_betshops_di_DataModule
+hilt_aggregated_deps/_com_nikec_betshops_ui_BetshopsActivity_GeneratedInjector.java
+ hilt_aggregated_deps._com_nikec_betshops_ui_BetshopsActivity_GeneratedInjector
+hilt_aggregated_deps/_com_nikec_betshops_di_LocationModule.java
+ hilt_aggregated_deps._com_nikec_betshops_di_LocationModule
+com/nikec/betshops/ui/Hilt_BetshopsActivity.java
+ com.nikec.betshops.ui.Hilt_BetshopsActivity
+ com.nikec.betshops.ui.Hilt_BetshopsActivity$1
+com/nikec/betshops/ui/BetshopsViewModel_HiltModules.java
+ com.nikec.betshops.ui.BetshopsViewModel_HiltModules
+ com.nikec.betshops.ui.BetshopsViewModel_HiltModules$BindsModule
+ com.nikec.betshops.ui.BetshopsViewModel_HiltModules$KeyModule
+hilt_aggregated_deps/_com_nikec_betshops_di_ApiServiceModule.java
+ hilt_aggregated_deps._com_nikec_betshops_di_ApiServiceModule
+com/nikec/betshops/databinding/FragmentBetshopDetailsBinding.java
+ com.nikec.betshops.databinding.FragmentBetshopDetailsBinding
+com/nikec/betshops/BuildConfig.java
+ com.nikec.betshops.BuildConfig
+com/nikec/betshops/ui/BetshopsViewModel_Factory.java
+ com.nikec.betshops.ui.BetshopsViewModel_Factory
+com/nikec/betshops/di/LocationModule_ProvideFusedLocationClientFactory.java
+ com.nikec.betshops.di.LocationModule_ProvideFusedLocationClientFactory
+com/nikec/betshops/util/LocationPermissionHelper_Factory.java
+ com.nikec.betshops.util.LocationPermissionHelper_Factory
+com/nikec/betshops/databinding/ActivityBetshopsBinding.java
+ com.nikec.betshops.databinding.ActivityBetshopsBinding
+com/nikec/betshops/ui/BetshopsActivity_GeneratedInjector.java
+ com.nikec.betshops.ui.BetshopsActivity_GeneratedInjector
+com/nikec/betshops/App_GeneratedInjector.java
+ com.nikec.betshops.App_GeneratedInjector
+dagger/hilt/internal/aggregatedroot/codegen/_com_nikec_betshops_App.java
+ dagger.hilt.internal.aggregatedroot.codegen._com_nikec_betshops_App
+dagger/hilt/internal/processedrootsentinel/codegen/_com_nikec_betshops_App.java
+ dagger.hilt.internal.processedrootsentinel.codegen._com_nikec_betshops_App
+hilt_aggregated_deps/_com_nikec_betshops_ui_BetshopsViewModel_HiltModules_BindsModule.java
+ hilt_aggregated_deps._com_nikec_betshops_ui_BetshopsViewModel_HiltModules_BindsModule
+com/nikec/betshops/ui/BetshopsActivity_MembersInjector.java
+ com.nikec.betshops.ui.BetshopsActivity_MembersInjector
+com/nikec/betshops/ui/BetshopsViewModel_HiltModules_KeyModule_ProvideFactory.java
+ com.nikec.betshops.ui.BetshopsViewModel_HiltModules_KeyModule_ProvideFactory
+ com.nikec.betshops.ui.BetshopsViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder
+hilt_aggregated_deps/_com_nikec_betshops_App_GeneratedInjector.java
+ hilt_aggregated_deps._com_nikec_betshops_App_GeneratedInjector
+hilt_aggregated_deps/_com_nikec_betshops_ui_BetshopsViewModel_HiltModules_KeyModule.java
+ hilt_aggregated_deps._com_nikec_betshops_ui_BetshopsViewModel_HiltModules_KeyModule
+com/nikec/betshops/di/ApiServiceModule_ProvideApiServiceFactory.java
+ com.nikec.betshops.di.ApiServiceModule_ProvideApiServiceFactory
+com/nikec/betshops/di/ApiServiceModule_CreateRetrofitFactory.java
+ com.nikec.betshops.di.ApiServiceModule_CreateRetrofitFactory
+com/nikec/betshops/data/BetshopRepositoryImpl_Factory.java
+ com.nikec.betshops.data.BetshopRepositoryImpl_Factory
+com/nikec/betshops/App_ComponentTreeDeps.java
+ com.nikec.betshops.App_ComponentTreeDeps
+com/nikec/betshops/di/ApiServiceModule_CreateOkHttpClientFactory.java
+ com.nikec.betshops.di.ApiServiceModule_CreateOkHttpClientFactory
+com/nikec/betshops/DaggerApp_HiltComponents_SingletonC.java
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ActivityCBuilder
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ActivityCImpl
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ActivityCImpl$SwitchingProvider
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ActivityRetainedCBuilder
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ActivityRetainedCImpl
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ActivityRetainedCImpl$SwitchingProvider
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$Builder
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$FragmentCBuilder
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$FragmentCImpl
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ServiceCBuilder
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ServiceCImpl
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$SwitchingProvider
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ViewCBuilder
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ViewCImpl
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ViewModelCBuilder
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ViewModelCImpl
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ViewModelCImpl$SwitchingProvider
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ViewWithFragmentCBuilder
+ com.nikec.betshops.DaggerApp_HiltComponents_SingletonC$ViewWithFragmentCImpl
+com/nikec/betshops/Hilt_App.java
+ com.nikec.betshops.Hilt_App
+ com.nikec.betshops.Hilt_App$1
+com/nikec/betshops/App_HiltComponents.java
+ com.nikec.betshops.App_HiltComponents
+ com.nikec.betshops.App_HiltComponents$ActivityC
+ com.nikec.betshops.App_HiltComponents$ActivityC$Builder
+ com.nikec.betshops.App_HiltComponents$ActivityCBuilderModule
+ com.nikec.betshops.App_HiltComponents$ActivityRetainedC
+ com.nikec.betshops.App_HiltComponents$ActivityRetainedC$Builder
+ com.nikec.betshops.App_HiltComponents$ActivityRetainedCBuilderModule
+ com.nikec.betshops.App_HiltComponents$FragmentC
+ com.nikec.betshops.App_HiltComponents$FragmentC$Builder
+ com.nikec.betshops.App_HiltComponents$FragmentCBuilderModule
+ com.nikec.betshops.App_HiltComponents$ServiceC
+ com.nikec.betshops.App_HiltComponents$ServiceC$Builder
+ com.nikec.betshops.App_HiltComponents$ServiceCBuilderModule
+ com.nikec.betshops.App_HiltComponents$SingletonC
+ com.nikec.betshops.App_HiltComponents$ViewC
+ com.nikec.betshops.App_HiltComponents$ViewC$Builder
+ com.nikec.betshops.App_HiltComponents$ViewCBuilderModule
+ com.nikec.betshops.App_HiltComponents$ViewModelC
+ com.nikec.betshops.App_HiltComponents$ViewModelC$Builder
+ com.nikec.betshops.App_HiltComponents$ViewModelCBuilderModule
+ com.nikec.betshops.App_HiltComponents$ViewWithFragmentC
+ com.nikec.betshops.App_HiltComponents$ViewWithFragmentC$Builder
+ com.nikec.betshops.App_HiltComponents$ViewWithFragmentCBuilderModule

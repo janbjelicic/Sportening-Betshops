@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/build/intermediates/incremental/mergeDevelopmentDebugResources/stripped.dir/layout/fragment_betshop_details.xml",
+        "source": "/Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/res/layout/fragment_betshop_details.xml"
+    },
+    {
+        "merged": "/Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/build/intermediates/incremental/mergeDevelopmentDebugResources/stripped.dir/layout/activity_betshops.xml",
+        "source": "/Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/res/layout/activity_betshops.xml"
+    }
+]

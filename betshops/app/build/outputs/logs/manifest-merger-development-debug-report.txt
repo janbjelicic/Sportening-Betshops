@@ -1,0 +1,323 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/jurajbegovac/.gradle/caches/transforms-3/70ea3e649b7253081fcaa99b2db0ac14/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/eb114c06a845bdcecc9882480ec36fa4/transformed/jetified-activity-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/jurajbegovac/.gradle/caches/transforms-3/c11e2bd33fc485d7a1c3a108ad6064b3/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/jurajbegovac/.gradle/caches/transforms-3/834f09ac4876571a00f5f93e307b64e1/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/bc4b005afa696a83ad6a488520a6dc8a/transformed/constraintlayout-2.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/cfa2113f031f5e65517fc8159ee5416a/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/546030035e430e754cc2586575015fe8/transformed/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/cb668a8504f6fec13ffb647350df7ed2/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/c7e5b5b15ea109b65fbbb31513c28d83/transformed/jetified-rxandroid-3.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/jurajbegovac/.gradle/caches/transforms-3/0f74aba6fd9a30d4c07f052451ea116b/transformed/jetified-hilt-android-2.38.1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.maps.android:maps-utils-ktx:3.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/0e7fee7fd827969ec189dc6a53360076/transformed/jetified-maps-utils-ktx-3.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/506df5fc2e505fc70a3e1f01b68ca169/transformed/jetified-android-maps-utils-2.3.0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/0324797eeb8a9c8222ad6d11a7d0515a/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.ajalt:timberkt:1.5.1] /Users/jurajbegovac/.gradle/caches/transforms-3/2216aa3f61f468b428f8e9462f685c54/transformed/jetified-timberkt-1.5.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/6f5e0aa0f28a7910b0d5cd5d144c39a8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d00763816256708bccab6fbf46e05833/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1a7248ead145567672b93e060add7847/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1511b4898c3761d767e6c82c333bfe83/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/3d04d8e631acdd28cc1aaffbbbc30c20/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/jurajbegovac/.gradle/caches/transforms-3/6601a40e736b809c0f8b5125f2c7c84a/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/jurajbegovac/.gradle/caches/transforms-3/72bec0ee90ab7c794286443578d6999a/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/afe6735a7ab2bcb9d9871756e6728fe9/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/8d53c9eac247059ea7ea9b71a2acf582/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/2291667b7c9274f8d3ca6d42ac936c63/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/da3cafcbe471ebf83f0b37f08546b375/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d8a43ea4c771c243b07f8c0459812d54/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/f3647409e99631540e10d94fa6696620/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/dab5eefffd2d222e5b437dc1e9bd1119/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/8c048b78c1c634908a2611d08e778c1c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/680dede7739261a16c51bd7897f7d161/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/bc6e403b5d7e96985a8489b334e3d19f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/493060005d9d4d84c9bd8095f4c9d38b/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/fea08b67a2b90c0a2dec9eda3de3f9d6/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/jurajbegovac/.gradle/caches/transforms-3/439fd1c8c2e92448e84fdc4489e1cd02/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d3f69007965e4e079bc08523500fb86b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/9771ed23ea37fe6b62153c5a7990c749/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/daf59464b59eca0cf0bd11c4109b1c63/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1e20d61f9a5144c92e3b07ba4902fff3/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1da60cb65bf74528b707e05b42d88d88/transformed/jetified-lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/c0d52095c8f54dd17c2dda95332cc09e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/d9ca9f8952e6481e5070a8050fa91a4f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/39ffbfc0441d19c86006717e54f6086e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/426f94207e1079e3958912bdde44c554/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/bda916bb9f2614bd1216aa65ffbf2936/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/15ba5e8827fbfff3ad3ef11078336439/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/f8dc043ac21d202d7a911ccb895ea61d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/af80e83c144e31e0d2389210b62fc556/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/f17ee288b946dfce6af2f4d07ff06ac1/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/2797d7ccd8ce65db129c5fc11d825e1e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/7d1d54f8dec6770f218d02aa1cd17aa3/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/8bc1b216261c0eb59b654a0cd7e92938/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/ae1f951bc4ddf20e06181125dc387335/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/de33cd6449265ee92fc9fc1f21f0a342/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/jurajbegovac/.gradle/caches/transforms-3/c5f3af94258d5b072066b55525a69b36/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/jurajbegovac/.gradle/caches/transforms-3/423fb76c4b1bc943407481a7a3136a32/transformed/jetified-timber-4.7.0/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:9:5-32:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/jurajbegovac/.gradle/caches/transforms-3/834f09ac4876571a00f5f93e307b64e1/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/jurajbegovac/.gradle/caches/transforms-3/834f09ac4876571a00f5f93e307b64e1/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/bc4b005afa696a83ad6a488520a6dc8a/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/bc4b005afa696a83ad6a488520a6dc8a/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/506df5fc2e505fc70a3e1f01b68ca169/transformed/jetified-android-maps-utils-2.3.0/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/506df5fc2e505fc70a3e1f01b68ca169/transformed/jetified-android-maps-utils-2.3.0/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/0324797eeb8a9c8222ad6d11a7d0515a/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/0324797eeb8a9c8222ad6d11a7d0515a/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d00763816256708bccab6fbf46e05833/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d00763816256708bccab6fbf46e05833/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1a7248ead145567672b93e060add7847/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1a7248ead145567672b93e060add7847/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1511b4898c3761d767e6c82c333bfe83/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1511b4898c3761d767e6c82c333bfe83/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/3d04d8e631acdd28cc1aaffbbbc30c20/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/3d04d8e631acdd28cc1aaffbbbc30c20/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] /Users/jurajbegovac/.gradle/caches/transforms-3/439fd1c8c2e92448e84fdc4489e1cd02/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/jurajbegovac/.gradle/caches/transforms-3/439fd1c8c2e92448e84fdc4489e1cd02/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/f8dc043ac21d202d7a911ccb895ea61d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/f8dc043ac21d202d7a911ccb895ea61d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/jurajbegovac/.gradle/caches/transforms-3/423fb76c4b1bc943407481a7a3136a32/transformed/jetified-timber-4.7.0/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/jurajbegovac/.gradle/caches/transforms-3/423fb76c4b1bc943407481a7a3136a32/transformed/jetified-timber-4.7.0/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/jurajbegovac/.gradle/caches/transforms-3/439fd1c8c2e92448e84fdc4489e1cd02/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:11:9-36
+	android:theme
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:16:9-46
+	android:name
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:10:9-28
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:18:9-20:71
+	android:value
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:20:13-68
+	android:name
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:19:13-58
+activity#com.nikec.betshops.ui.BetshopsActivity
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:22:9-31:20
+	android:label
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:25:13-45
+	android:exported
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:23:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/jurajbegovac/.gradle/caches/transforms-3/70ea3e649b7253081fcaa99b2db0ac14/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/jurajbegovac/.gradle/caches/transforms-3/70ea3e649b7253081fcaa99b2db0ac14/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/eb114c06a845bdcecc9882480ec36fa4/transformed/jetified-activity-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/eb114c06a845bdcecc9882480ec36fa4/transformed/jetified-activity-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/jurajbegovac/.gradle/caches/transforms-3/c11e2bd33fc485d7a1c3a108ad6064b3/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/jurajbegovac/.gradle/caches/transforms-3/c11e2bd33fc485d7a1c3a108ad6064b3/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/jurajbegovac/.gradle/caches/transforms-3/834f09ac4876571a00f5f93e307b64e1/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/jurajbegovac/.gradle/caches/transforms-3/834f09ac4876571a00f5f93e307b64e1/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/bc4b005afa696a83ad6a488520a6dc8a/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/bc4b005afa696a83ad6a488520a6dc8a/transformed/constraintlayout-2.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/cfa2113f031f5e65517fc8159ee5416a/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/cfa2113f031f5e65517fc8159ee5416a/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/546030035e430e754cc2586575015fe8/transformed/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/546030035e430e754cc2586575015fe8/transformed/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/cb668a8504f6fec13ffb647350df7ed2/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/cb668a8504f6fec13ffb647350df7ed2/transformed/jetified-lifecycle-viewmodel-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/c7e5b5b15ea109b65fbbb31513c28d83/transformed/jetified-rxandroid-3.0.0/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/c7e5b5b15ea109b65fbbb31513c28d83/transformed/jetified-rxandroid-3.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/jurajbegovac/.gradle/caches/transforms-3/0f74aba6fd9a30d4c07f052451ea116b/transformed/jetified-hilt-android-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/jurajbegovac/.gradle/caches/transforms-3/0f74aba6fd9a30d4c07f052451ea116b/transformed/jetified-hilt-android-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.maps.android:maps-utils-ktx:3.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/0e7fee7fd827969ec189dc6a53360076/transformed/jetified-maps-utils-ktx-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:maps-utils-ktx:3.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/0e7fee7fd827969ec189dc6a53360076/transformed/jetified-maps-utils-ktx-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/506df5fc2e505fc70a3e1f01b68ca169/transformed/jetified-android-maps-utils-2.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/506df5fc2e505fc70a3e1f01b68ca169/transformed/jetified-android-maps-utils-2.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/0324797eeb8a9c8222ad6d11a7d0515a/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/0324797eeb8a9c8222ad6d11a7d0515a/transformed/jetified-play-services-location-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.ajalt:timberkt:1.5.1] /Users/jurajbegovac/.gradle/caches/transforms-3/2216aa3f61f468b428f8e9462f685c54/transformed/jetified-timberkt-1.5.1/AndroidManifest.xml:7:5-43
+MERGED from [com.github.ajalt:timberkt:1.5.1] /Users/jurajbegovac/.gradle/caches/transforms-3/2216aa3f61f468b428f8e9462f685c54/transformed/jetified-timberkt-1.5.1/AndroidManifest.xml:7:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/6f5e0aa0f28a7910b0d5cd5d144c39a8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/6f5e0aa0f28a7910b0d5cd5d144c39a8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d00763816256708bccab6fbf46e05833/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d00763816256708bccab6fbf46e05833/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1a7248ead145567672b93e060add7847/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1a7248ead145567672b93e060add7847/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1511b4898c3761d767e6c82c333bfe83/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1511b4898c3761d767e6c82c333bfe83/transformed/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/3d04d8e631acdd28cc1aaffbbbc30c20/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/3d04d8e631acdd28cc1aaffbbbc30c20/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/jurajbegovac/.gradle/caches/transforms-3/6601a40e736b809c0f8b5125f2c7c84a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/jurajbegovac/.gradle/caches/transforms-3/6601a40e736b809c0f8b5125f2c7c84a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/jurajbegovac/.gradle/caches/transforms-3/72bec0ee90ab7c794286443578d6999a/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/jurajbegovac/.gradle/caches/transforms-3/72bec0ee90ab7c794286443578d6999a/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/afe6735a7ab2bcb9d9871756e6728fe9/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/afe6735a7ab2bcb9d9871756e6728fe9/transformed/jetified-appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/8d53c9eac247059ea7ea9b71a2acf582/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/8d53c9eac247059ea7ea9b71a2acf582/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/2291667b7c9274f8d3ca6d42ac936c63/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/2291667b7c9274f8d3ca6d42ac936c63/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/da3cafcbe471ebf83f0b37f08546b375/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/da3cafcbe471ebf83f0b37f08546b375/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d8a43ea4c771c243b07f8c0459812d54/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d8a43ea4c771c243b07f8c0459812d54/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/f3647409e99631540e10d94fa6696620/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/f3647409e99631540e10d94fa6696620/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/dab5eefffd2d222e5b437dc1e9bd1119/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/dab5eefffd2d222e5b437dc1e9bd1119/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/8c048b78c1c634908a2611d08e778c1c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/8c048b78c1c634908a2611d08e778c1c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/680dede7739261a16c51bd7897f7d161/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/680dede7739261a16c51bd7897f7d161/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/bc6e403b5d7e96985a8489b334e3d19f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/bc6e403b5d7e96985a8489b334e3d19f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/493060005d9d4d84c9bd8095f4c9d38b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/493060005d9d4d84c9bd8095f4c9d38b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/fea08b67a2b90c0a2dec9eda3de3f9d6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/fea08b67a2b90c0a2dec9eda3de3f9d6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/jurajbegovac/.gradle/caches/transforms-3/439fd1c8c2e92448e84fdc4489e1cd02/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/jurajbegovac/.gradle/caches/transforms-3/439fd1c8c2e92448e84fdc4489e1cd02/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d3f69007965e4e079bc08523500fb86b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d3f69007965e4e079bc08523500fb86b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/9771ed23ea37fe6b62153c5a7990c749/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/9771ed23ea37fe6b62153c5a7990c749/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/daf59464b59eca0cf0bd11c4109b1c63/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/daf59464b59eca0cf0bd11c4109b1c63/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1e20d61f9a5144c92e3b07ba4902fff3/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1e20d61f9a5144c92e3b07ba4902fff3/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1da60cb65bf74528b707e05b42d88d88/transformed/jetified-lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/1da60cb65bf74528b707e05b42d88d88/transformed/jetified-lifecycle-runtime-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/c0d52095c8f54dd17c2dda95332cc09e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/c0d52095c8f54dd17c2dda95332cc09e/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/d9ca9f8952e6481e5070a8050fa91a4f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/d9ca9f8952e6481e5070a8050fa91a4f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/39ffbfc0441d19c86006717e54f6086e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/39ffbfc0441d19c86006717e54f6086e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/426f94207e1079e3958912bdde44c554/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/426f94207e1079e3958912bdde44c554/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/bda916bb9f2614bd1216aa65ffbf2936/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/jurajbegovac/.gradle/caches/transforms-3/bda916bb9f2614bd1216aa65ffbf2936/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/15ba5e8827fbfff3ad3ef11078336439/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/jurajbegovac/.gradle/caches/transforms-3/15ba5e8827fbfff3ad3ef11078336439/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/f8dc043ac21d202d7a911ccb895ea61d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jurajbegovac/.gradle/caches/transforms-3/f8dc043ac21d202d7a911ccb895ea61d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/af80e83c144e31e0d2389210b62fc556/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/af80e83c144e31e0d2389210b62fc556/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/f17ee288b946dfce6af2f4d07ff06ac1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/f17ee288b946dfce6af2f4d07ff06ac1/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/2797d7ccd8ce65db129c5fc11d825e1e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/2797d7ccd8ce65db129c5fc11d825e1e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/7d1d54f8dec6770f218d02aa1cd17aa3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/7d1d54f8dec6770f218d02aa1cd17aa3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/8bc1b216261c0eb59b654a0cd7e92938/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/8bc1b216261c0eb59b654a0cd7e92938/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/ae1f951bc4ddf20e06181125dc387335/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jurajbegovac/.gradle/caches/transforms-3/ae1f951bc4ddf20e06181125dc387335/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/de33cd6449265ee92fc9fc1f21f0a342/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jurajbegovac/.gradle/caches/transforms-3/de33cd6449265ee92fc9fc1f21f0a342/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/jurajbegovac/.gradle/caches/transforms-3/c5f3af94258d5b072066b55525a69b36/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/jurajbegovac/.gradle/caches/transforms-3/c5f3af94258d5b072066b55525a69b36/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/jurajbegovac/.gradle/caches/transforms-3/423fb76c4b1bc943407481a7a3136a32/transformed/jetified-timber-4.7.0/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.0] /Users/jurajbegovac/.gradle/caches/transforms-3/423fb76c4b1bc943407481a7a3136a32/transformed/jetified-timber-4.7.0/AndroidManifest.xml:5:5-43
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jurajbegovac/Work/Wesports/interviews/betshops-nikola-curilovic/betshops/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] /Users/jurajbegovac/.gradle/caches/transforms-3/7ed38be1b518503082f191e84893ecb9/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/506df5fc2e505fc70a3e1f01b68ca169/transformed/jetified-android-maps-utils-2.3.0/AndroidManifest.xml:10:9-12:69
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/3d04d8e631acdd28cc1aaffbbbc30c20/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/3d04d8e631acdd28cc1aaffbbbc30c20/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/506df5fc2e505fc70a3e1f01b68ca169/transformed/jetified-android-maps-utils-2.3.0/AndroidManifest.xml:12:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:2.3.0] /Users/jurajbegovac/.gradle/caches/transforms-3/506df5fc2e505fc70a3e1f01b68ca169/transformed/jetified-android-maps-utils-2.3.0/AndroidManifest.xml:11:13-58
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d00763816256708bccab6fbf46e05833/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d00763816256708bccab6fbf46e05833/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d00763816256708bccab6fbf46e05833/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] /Users/jurajbegovac/.gradle/caches/transforms-3/d00763816256708bccab6fbf46e05833/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
