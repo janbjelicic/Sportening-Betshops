@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+def shared_pods
+  pod 'RxSwift'
+end
+
+target 'SporteningBetshops' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SporteningBetshops
+  shared_pods
+  pod 'RxCocoa'
+  pod 'R.swift'
+  
+  target 'SporteningBetshopsTests' do
+    inherit! :search_paths
+    shared_pods
+  end
+
+end

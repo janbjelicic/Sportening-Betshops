@@ -1,0 +1,968 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23AB1C20BB424C3C3C6AFF0D /* Pods_SporteningBetshops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD907E57B73796A42389404 /* Pods_SporteningBetshops.framework */; };
+		8078920C2789E08C00DA78FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078920B2789E08C00DA78FA /* AppDelegate.swift */; };
+		807892102789E08C00DA78FA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078920F2789E08C00DA78FA /* MapViewController.swift */; };
+		807892132789E08C00DA78FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807892112789E08C00DA78FA /* Main.storyboard */; };
+		807892152789E08E00DA78FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807892142789E08E00DA78FA /* Assets.xcassets */; };
+		807892182789E08E00DA78FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807892162789E08E00DA78FA /* LaunchScreen.storyboard */; };
+		807892232789E08E00DA78FA /* SporteningBetshopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807892222789E08E00DA78FA /* SporteningBetshopsTests.swift */; };
+		8078922D2789E08E00DA78FA /* SporteningBetshopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078922C2789E08E00DA78FA /* SporteningBetshopsUITests.swift */; };
+		8078922F2789E08E00DA78FA /* SporteningBetshopsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078922E2789E08E00DA78FA /* SporteningBetshopsUITestsLaunchTests.swift */; };
+		807892462789E12100DA78FA /* Betshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078923C2789E12100DA78FA /* Betshop.swift */; };
+		807892472789E12100DA78FA /* BetshopsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078923E2789E12100DA78FA /* BetshopsRequest.swift */; };
+		807892482789E12100DA78FA /* BetshopsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078923F2789E12100DA78FA /* BetshopsResponse.swift */; };
+		807892492789E12100DA78FA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807892412789E12100DA78FA /* NetworkManager.swift */; };
+		8078924A2789E12100DA78FA /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807892422789E12100DA78FA /* NetworkRequest.swift */; };
+		8078924B2789E12100DA78FA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807892432789E12100DA78FA /* NetworkError.swift */; };
+		8078924C2789E12100DA78FA /* BetshopService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807892452789E12100DA78FA /* BetshopService.swift */; };
+		807892532789E55F00DA78FA /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807892522789E55F00DA78FA /* MapViewModel.swift */; };
+		807892572789E57400DA78FA /* BetshopDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807892562789E57400DA78FA /* BetshopDetailsViewModel.swift */; };
+		807892592789E58900DA78FA /* BetshopDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807892582789E58900DA78FA /* BetshopDetailsViewController.swift */; };
+		8078925B2789E8A400DA78FA /* BetshopResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078925A2789E8A400DA78FA /* BetshopResponse.swift */; };
+		8078925E2789E90300DA78FA /* LocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078925D2789E90300DA78FA /* LocationResponse.swift */; };
+		807892612789F0E100DA78FA /* Munich.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 807892602789F0E100DA78FA /* Munich.gpx */; };
+		807892662789F89D00DA78FA /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807892652789F89D00DA78FA /* R.generated.swift */; };
+		80789269278A021500DA78FA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80789268278A021500DA78FA /* Coordinator.swift */; };
+		8078926B278A022F00DA78FA /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078926A278A022F00DA78FA /* AppCoordinator.swift */; };
+		8078926F278A072B00DA78FA /* BetshopDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078926E278A072B00DA78FA /* BetshopDetails.swift */; };
+		80789271278B0C6D00DA78FA /* BetshopAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80789270278B0C6D00DA78FA /* BetshopAnnotationView.swift */; };
+		80789274278B2D9C00DA78FA /* BetshopAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80789273278B2D9C00DA78FA /* BetshopAnnotation.swift */; };
+		80789277278B312D00DA78FA /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80789276278B312D00DA78FA /* MKCoordinateRegion.swift */; };
+		8078927A278B430D00DA78FA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80789279278B430D00DA78FA /* LocationManager.swift */; };
+		A84227FC579BF41CE6C64BC3 /* Pods_SporteningBetshopsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3293C41B162CEAEEF2B644C1 /* Pods_SporteningBetshopsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8078921F2789E08E00DA78FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807892002789E08B00DA78FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807892072789E08C00DA78FA;
+			remoteInfo = SporteningBetshops;
+		};
+		807892292789E08E00DA78FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807892002789E08B00DA78FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807892072789E08C00DA78FA;
+			remoteInfo = SporteningBetshops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		253D0A735D055A68B092D8CE /* Pods-SporteningBetshopsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SporteningBetshopsTests.debug.xcconfig"; path = "Target Support Files/Pods-SporteningBetshopsTests/Pods-SporteningBetshopsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3293C41B162CEAEEF2B644C1 /* Pods_SporteningBetshopsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SporteningBetshopsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6E9F987BDFFC91263D1C5D /* Pods-SporteningBetshopsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SporteningBetshopsTests.release.xcconfig"; path = "Target Support Files/Pods-SporteningBetshopsTests/Pods-SporteningBetshopsTests.release.xcconfig"; sourceTree = "<group>"; };
+		807892082789E08C00DA78FA /* SporteningBetshops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SporteningBetshops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8078920B2789E08C00DA78FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8078920F2789E08C00DA78FA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		807892122789E08C00DA78FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		807892142789E08E00DA78FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		807892172789E08E00DA78FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8078921E2789E08E00DA78FA /* SporteningBetshopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SporteningBetshopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		807892222789E08E00DA78FA /* SporteningBetshopsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SporteningBetshopsTests.swift; sourceTree = "<group>"; };
+		807892282789E08E00DA78FA /* SporteningBetshopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SporteningBetshopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8078922C2789E08E00DA78FA /* SporteningBetshopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SporteningBetshopsUITests.swift; sourceTree = "<group>"; };
+		8078922E2789E08E00DA78FA /* SporteningBetshopsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SporteningBetshopsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8078923C2789E12100DA78FA /* Betshop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Betshop.swift; sourceTree = "<group>"; };
+		8078923E2789E12100DA78FA /* BetshopsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetshopsRequest.swift; sourceTree = "<group>"; };
+		8078923F2789E12100DA78FA /* BetshopsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetshopsResponse.swift; sourceTree = "<group>"; };
+		807892412789E12100DA78FA /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		807892422789E12100DA78FA /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		807892432789E12100DA78FA /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		807892452789E12100DA78FA /* BetshopService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetshopService.swift; sourceTree = "<group>"; };
+		807892522789E55F00DA78FA /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		807892562789E57400DA78FA /* BetshopDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetshopDetailsViewModel.swift; sourceTree = "<group>"; };
+		807892582789E58900DA78FA /* BetshopDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetshopDetailsViewController.swift; sourceTree = "<group>"; };
+		8078925A2789E8A400DA78FA /* BetshopResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetshopResponse.swift; sourceTree = "<group>"; };
+		8078925D2789E90300DA78FA /* LocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationResponse.swift; sourceTree = "<group>"; };
+		807892602789F0E100DA78FA /* Munich.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Munich.gpx; sourceTree = "<group>"; };
+		807892622789F73400DA78FA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807892652789F89D00DA78FA /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		80789268278A021500DA78FA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		8078926A278A022F00DA78FA /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		8078926E278A072B00DA78FA /* BetshopDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetshopDetails.swift; sourceTree = "<group>"; };
+		80789270278B0C6D00DA78FA /* BetshopAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetshopAnnotationView.swift; sourceTree = "<group>"; };
+		80789273278B2D9C00DA78FA /* BetshopAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetshopAnnotation.swift; sourceTree = "<group>"; };
+		80789276278B312D00DA78FA /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
+		80789279278B430D00DA78FA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CAFBEB63CE928A224E2D08F1 /* Pods-SporteningBetshops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SporteningBetshops.release.xcconfig"; path = "Target Support Files/Pods-SporteningBetshops/Pods-SporteningBetshops.release.xcconfig"; sourceTree = "<group>"; };
+		F5096F3EC9293E98F89385CF /* Pods-SporteningBetshops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SporteningBetshops.debug.xcconfig"; path = "Target Support Files/Pods-SporteningBetshops/Pods-SporteningBetshops.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD907E57B73796A42389404 /* Pods_SporteningBetshops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SporteningBetshops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807892052789E08C00DA78FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AB1C20BB424C3C3C6AFF0D /* Pods_SporteningBetshops.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8078921B2789E08E00DA78FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84227FC579BF41CE6C64BC3 /* Pods_SporteningBetshopsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807892252789E08E00DA78FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18846DC54AE920607C7FBB3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5096F3EC9293E98F89385CF /* Pods-SporteningBetshops.debug.xcconfig */,
+				CAFBEB63CE928A224E2D08F1 /* Pods-SporteningBetshops.release.xcconfig */,
+				253D0A735D055A68B092D8CE /* Pods-SporteningBetshopsTests.debug.xcconfig */,
+				4E6E9F987BDFFC91263D1C5D /* Pods-SporteningBetshopsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		807891FF2789E08B00DA78FA = {
+			isa = PBXGroup;
+			children = (
+				8078920A2789E08C00DA78FA /* SporteningBetshops */,
+				807892212789E08E00DA78FA /* SporteningBetshopsTests */,
+				8078922B2789E08E00DA78FA /* SporteningBetshopsUITests */,
+				807892092789E08C00DA78FA /* Products */,
+				18846DC54AE920607C7FBB3F /* Pods */,
+				BCD8D07255F694F362677131 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		807892092789E08C00DA78FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				807892082789E08C00DA78FA /* SporteningBetshops.app */,
+				8078921E2789E08E00DA78FA /* SporteningBetshopsTests.xctest */,
+				807892282789E08E00DA78FA /* SporteningBetshopsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8078920A2789E08C00DA78FA /* SporteningBetshops */ = {
+			isa = PBXGroup;
+			children = (
+				80789275278B311D00DA78FA /* Extensions */,
+				8078925F2789EA9000DA78FA /* Resources */,
+				8078924D2789E50400DA78FA /* Presentation */,
+				8078923B2789E12100DA78FA /* Data */,
+				8078920B2789E08C00DA78FA /* AppDelegate.swift */,
+				807892622789F73400DA78FA /* Info.plist */,
+			);
+			path = SporteningBetshops;
+			sourceTree = "<group>";
+		};
+		807892212789E08E00DA78FA /* SporteningBetshopsTests */ = {
+			isa = PBXGroup;
+			children = (
+				807892222789E08E00DA78FA /* SporteningBetshopsTests.swift */,
+			);
+			path = SporteningBetshopsTests;
+			sourceTree = "<group>";
+		};
+		8078922B2789E08E00DA78FA /* SporteningBetshopsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8078922C2789E08E00DA78FA /* SporteningBetshopsUITests.swift */,
+				8078922E2789E08E00DA78FA /* SporteningBetshopsUITestsLaunchTests.swift */,
+			);
+			path = SporteningBetshopsUITests;
+			sourceTree = "<group>";
+		};
+		8078923B2789E12100DA78FA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				80789278278B430600DA78FA /* Location */,
+				8078923D2789E12100DA78FA /* Model */,
+				807892402789E12100DA78FA /* API */,
+				807892442789E12100DA78FA /* Services */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8078923D2789E12100DA78FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8078925C2789E8EF00DA78FA /* Betshops */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		807892402789E12100DA78FA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				807892412789E12100DA78FA /* NetworkManager.swift */,
+				807892422789E12100DA78FA /* NetworkRequest.swift */,
+				807892432789E12100DA78FA /* NetworkError.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		807892442789E12100DA78FA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				807892452789E12100DA78FA /* BetshopService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8078924D2789E50400DA78FA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				80789267278A020A00DA78FA /* Application */,
+				807892112789E08C00DA78FA /* Main.storyboard */,
+				8078924F2789E52F00DA78FA /* BetshopDetails */,
+				8078924E2789E52B00DA78FA /* Map */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8078924E2789E52B00DA78FA /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8078926C278A071500DA78FA /* Model */,
+				8078920F2789E08C00DA78FA /* MapViewController.swift */,
+				807892522789E55F00DA78FA /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		8078924F2789E52F00DA78FA /* BetshopDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8078926D278A072100DA78FA /* Model */,
+				807892562789E57400DA78FA /* BetshopDetailsViewModel.swift */,
+				807892582789E58900DA78FA /* BetshopDetailsViewController.swift */,
+			);
+			path = BetshopDetails;
+			sourceTree = "<group>";
+		};
+		8078925C2789E8EF00DA78FA /* Betshops */ = {
+			isa = PBXGroup;
+			children = (
+				8078923E2789E12100DA78FA /* BetshopsRequest.swift */,
+				8078923F2789E12100DA78FA /* BetshopsResponse.swift */,
+				8078925A2789E8A400DA78FA /* BetshopResponse.swift */,
+				8078925D2789E90300DA78FA /* LocationResponse.swift */,
+			);
+			path = Betshops;
+			sourceTree = "<group>";
+		};
+		8078925F2789EA9000DA78FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				807892652789F89D00DA78FA /* R.generated.swift */,
+				807892162789E08E00DA78FA /* LaunchScreen.storyboard */,
+				807892142789E08E00DA78FA /* Assets.xcassets */,
+				807892602789F0E100DA78FA /* Munich.gpx */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80789267278A020A00DA78FA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				80789268278A021500DA78FA /* Coordinator.swift */,
+				8078926A278A022F00DA78FA /* AppCoordinator.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8078926C278A071500DA78FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8078923C2789E12100DA78FA /* Betshop.swift */,
+				80789270278B0C6D00DA78FA /* BetshopAnnotationView.swift */,
+				80789273278B2D9C00DA78FA /* BetshopAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8078926D278A072100DA78FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8078926E278A072B00DA78FA /* BetshopDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80789275278B311D00DA78FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80789276278B312D00DA78FA /* MKCoordinateRegion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80789278278B430600DA78FA /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				80789279278B430D00DA78FA /* LocationManager.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		BCD8D07255F694F362677131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD907E57B73796A42389404 /* Pods_SporteningBetshops.framework */,
+				3293C41B162CEAEEF2B644C1 /* Pods_SporteningBetshopsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807892072789E08C00DA78FA /* SporteningBetshops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807892322789E08E00DA78FA /* Build configuration list for PBXNativeTarget "SporteningBetshops" */;
+			buildPhases = (
+				9D57EE018610E9DD118E715A /* [CP] Check Pods Manifest.lock */,
+				807892642789F82400DA78FA /* Run Script - R.swift */,
+				807892042789E08C00DA78FA /* Sources */,
+				807892052789E08C00DA78FA /* Frameworks */,
+				807892062789E08C00DA78FA /* Resources */,
+				7828BD21B92B4B8D6C81A3FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SporteningBetshops;
+			productName = SporteningBetshops;
+			productReference = 807892082789E08C00DA78FA /* SporteningBetshops.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8078921D2789E08E00DA78FA /* SporteningBetshopsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807892352789E08E00DA78FA /* Build configuration list for PBXNativeTarget "SporteningBetshopsTests" */;
+			buildPhases = (
+				E0087AF26A2EB07ED9FBD24B /* [CP] Check Pods Manifest.lock */,
+				8078921A2789E08E00DA78FA /* Sources */,
+				8078921B2789E08E00DA78FA /* Frameworks */,
+				8078921C2789E08E00DA78FA /* Resources */,
+				64813854598EAAD266FED165 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807892202789E08E00DA78FA /* PBXTargetDependency */,
+			);
+			name = SporteningBetshopsTests;
+			productName = SporteningBetshopsTests;
+			productReference = 8078921E2789E08E00DA78FA /* SporteningBetshopsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		807892272789E08E00DA78FA /* SporteningBetshopsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807892382789E08E00DA78FA /* Build configuration list for PBXNativeTarget "SporteningBetshopsUITests" */;
+			buildPhases = (
+				807892242789E08E00DA78FA /* Sources */,
+				807892252789E08E00DA78FA /* Frameworks */,
+				807892262789E08E00DA78FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8078922A2789E08E00DA78FA /* PBXTargetDependency */,
+			);
+			name = SporteningBetshopsUITests;
+			productName = SporteningBetshopsUITests;
+			productReference = 807892282789E08E00DA78FA /* SporteningBetshopsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		807892002789E08B00DA78FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					807892072789E08C00DA78FA = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					8078921D2789E08E00DA78FA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 807892072789E08C00DA78FA;
+					};
+					807892272789E08E00DA78FA = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 807892072789E08C00DA78FA;
+					};
+				};
+			};
+			buildConfigurationList = 807892032789E08B00DA78FA /* Build configuration list for PBXProject "SporteningBetshops" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 807891FF2789E08B00DA78FA;
+			productRefGroup = 807892092789E08C00DA78FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807892072789E08C00DA78FA /* SporteningBetshops */,
+				8078921D2789E08E00DA78FA /* SporteningBetshopsTests */,
+				807892272789E08E00DA78FA /* SporteningBetshopsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807892062789E08C00DA78FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807892182789E08E00DA78FA /* LaunchScreen.storyboard in Resources */,
+				807892152789E08E00DA78FA /* Assets.xcassets in Resources */,
+				807892132789E08C00DA78FA /* Main.storyboard in Resources */,
+				807892612789F0E100DA78FA /* Munich.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8078921C2789E08E00DA78FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807892262789E08E00DA78FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64813854598EAAD266FED165 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SporteningBetshopsTests/Pods-SporteningBetshopsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SporteningBetshopsTests/Pods-SporteningBetshopsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SporteningBetshopsTests/Pods-SporteningBetshopsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7828BD21B92B4B8D6C81A3FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SporteningBetshops/Pods-SporteningBetshops-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SporteningBetshops/Pods-SporteningBetshops-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SporteningBetshops/Pods-SporteningBetshops-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807892642789F82400DA78FA /* Run Script - R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "Run Script - R.swift";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		9D57EE018610E9DD118E715A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SporteningBetshops-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0087AF26A2EB07ED9FBD24B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SporteningBetshopsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		807892042789E08C00DA78FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807892482789E12100DA78FA /* BetshopsResponse.swift in Sources */,
+				807892462789E12100DA78FA /* Betshop.swift in Sources */,
+				8078924A2789E12100DA78FA /* NetworkRequest.swift in Sources */,
+				8078925B2789E8A400DA78FA /* BetshopResponse.swift in Sources */,
+				807892102789E08C00DA78FA /* MapViewController.swift in Sources */,
+				807892592789E58900DA78FA /* BetshopDetailsViewController.swift in Sources */,
+				807892572789E57400DA78FA /* BetshopDetailsViewModel.swift in Sources */,
+				80789269278A021500DA78FA /* Coordinator.swift in Sources */,
+				807892662789F89D00DA78FA /* R.generated.swift in Sources */,
+				807892492789E12100DA78FA /* NetworkManager.swift in Sources */,
+				807892472789E12100DA78FA /* BetshopsRequest.swift in Sources */,
+				8078924B2789E12100DA78FA /* NetworkError.swift in Sources */,
+				8078925E2789E90300DA78FA /* LocationResponse.swift in Sources */,
+				8078926B278A022F00DA78FA /* AppCoordinator.swift in Sources */,
+				8078927A278B430D00DA78FA /* LocationManager.swift in Sources */,
+				80789277278B312D00DA78FA /* MKCoordinateRegion.swift in Sources */,
+				80789274278B2D9C00DA78FA /* BetshopAnnotation.swift in Sources */,
+				8078920C2789E08C00DA78FA /* AppDelegate.swift in Sources */,
+				80789271278B0C6D00DA78FA /* BetshopAnnotationView.swift in Sources */,
+				8078924C2789E12100DA78FA /* BetshopService.swift in Sources */,
+				8078926F278A072B00DA78FA /* BetshopDetails.swift in Sources */,
+				807892532789E55F00DA78FA /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8078921A2789E08E00DA78FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807892232789E08E00DA78FA /* SporteningBetshopsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807892242789E08E00DA78FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8078922D2789E08E00DA78FA /* SporteningBetshopsUITests.swift in Sources */,
+				8078922F2789E08E00DA78FA /* SporteningBetshopsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		807892202789E08E00DA78FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807892072789E08C00DA78FA /* SporteningBetshops */;
+			targetProxy = 8078921F2789E08E00DA78FA /* PBXContainerItemProxy */;
+		};
+		8078922A2789E08E00DA78FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807892072789E08C00DA78FA /* SporteningBetshops */;
+			targetProxy = 807892292789E08E00DA78FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		807892112789E08C00DA78FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807892122789E08C00DA78FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		807892162789E08E00DA78FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807892172789E08E00DA78FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		807892302789E08E00DA78FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		807892312789E08E00DA78FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807892332789E08E00DA78FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5096F3EC9293E98F89385CF /* Pods-SporteningBetshops.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9ZZARHR35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SporteningBetshops/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.SporteningBetshops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		807892342789E08E00DA78FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFBEB63CE928A224E2D08F1 /* Pods-SporteningBetshops.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9ZZARHR35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SporteningBetshops/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.SporteningBetshops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		807892362789E08E00DA78FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253D0A735D055A68B092D8CE /* Pods-SporteningBetshopsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9ZZARHR35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.SporteningBetshopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SporteningBetshops.app/SporteningBetshops";
+			};
+			name = Debug;
+		};
+		807892372789E08E00DA78FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6E9F987BDFFC91263D1C5D /* Pods-SporteningBetshopsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9ZZARHR35;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.SporteningBetshopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SporteningBetshops.app/SporteningBetshops";
+			};
+			name = Release;
+		};
+		807892392789E08E00DA78FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9ZZARHR35;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.SporteningBetshopsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SporteningBetshops;
+			};
+			name = Debug;
+		};
+		8078923A2789E08E00DA78FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X9ZZARHR35;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.SporteningBetshopsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SporteningBetshops;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		807892032789E08B00DA78FA /* Build configuration list for PBXProject "SporteningBetshops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807892302789E08E00DA78FA /* Debug */,
+				807892312789E08E00DA78FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807892322789E08E00DA78FA /* Build configuration list for PBXNativeTarget "SporteningBetshops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807892332789E08E00DA78FA /* Debug */,
+				807892342789E08E00DA78FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807892352789E08E00DA78FA /* Build configuration list for PBXNativeTarget "SporteningBetshopsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807892362789E08E00DA78FA /* Debug */,
+				807892372789E08E00DA78FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807892382789E08E00DA78FA /* Build configuration list for PBXNativeTarget "SporteningBetshopsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807892392789E08E00DA78FA /* Debug */,
+				8078923A2789E08E00DA78FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 807892002789E08B00DA78FA /* Project object */;
+}
